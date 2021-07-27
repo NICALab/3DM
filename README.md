@@ -1,11 +1,11 @@
 <h2 align="center">3DM: Deep decomposition and deconvolution microscopy</h2>
 
 <p align="center">
-<img width="55%" src="src/Visualization1_resize.gif">
+<img width="55%" src="src/Visualization1_resize75.gif">
 </p>
 <h6 align="center">Demo video acquired using 3DM.
 
- Significant compression is applied. [Supplementary video 1](TODO) is the video before compression.
+ Compression is applied. [Supplementary video 1](TODO) is the video before compression.
  </h6>
 
 
