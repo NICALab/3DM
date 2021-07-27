@@ -24,6 +24,8 @@ skimage==0.16.2
 ```
 
 ## Demo: BEAR + Deconvolution with pretrained weight
+There are videos saved in this notebook, where they are not visible if you simply view the notebook in github.
+You can view all things in the notebook with opening it with VS Code.
 ```bash
 sh ./run_jupyter.sh
 ```
