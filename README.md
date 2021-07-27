@@ -1,7 +1,7 @@
 <h2 align="center">3DM: Deep decomposition and deconvolution microscopy</h2>
 
 <p align="center">
-<img width="55%" src="src/Visualization1_resize75.gif">
+<img width="55%" src="src/Visualization1_resize75_8bit.gif">
 </p>
 <h6 align="center">Demo video acquired using 3DM.
 
