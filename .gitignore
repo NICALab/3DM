@@ -1,0 +1,8 @@
+# Cached files
+*__pycache__*
+
+# files for debugging
+*.tif
+
+# datasets
+synthetic_bead_3DM/
