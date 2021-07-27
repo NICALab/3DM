@@ -3,7 +3,7 @@ import torch.nn as nn
 
 import sys
 sys.path.append(".")
-from src.unet3d.unet_parts import *
+from codes.unet3d.unet_parts import *
 
 
 

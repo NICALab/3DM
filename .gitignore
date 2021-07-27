@@ -1,12 +1,17 @@
 # Cached files
 *__pycache__*
+.vscode
+.ipynb_checkpoints
 
 # files for debugging
 *.tif
 
 # datasets
 synthetic_bead_3DM/
+*.h5
 
 # models
 *.pth
 *.pt
+
+

@@ -17,7 +17,7 @@ from torch.autograd import Variable
 
 from datasets import confocalpairDataset, syntheticbeadDataset
 from util import plotter
-from src.unet3d.unet_model import UNet
+from codes.unet3d.unet_model import UNet
 
 import matplotlib.pyplot as plt
 

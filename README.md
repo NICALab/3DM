@@ -25,7 +25,7 @@ skimage==0.16.2
 
 ## Demo: BEAR + Deconvolution with pretrained weight
 ```bash
-./run_jupyter.sh
+sh ./run_jupyter.sh
 ```
 This notebook lets you:
 - Download a portion (t=1~50, size=**TODO**) of calcium imaging data acquired with our wide-field microscope.

@@ -11,7 +11,7 @@ import torch
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
 
-from src.unet3d.unet_model import UNet
+from codes.unet3d.unet_model import UNet
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--video_name", type=str, default="4p2VPS_S")
