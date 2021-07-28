@@ -25,16 +25,37 @@ skimage==0.16.2
 
 ## Demo: BEAR + Deconvolution with pretrained weight
 There are videos saved in this notebook, where they are not visible if you simply view the notebook in github.
-You can view all things in the notebook with opening it with VS Code.
+One way to view all things in the notebook with opening it with VS Code.
+
+Executing shell (download + Notebook) takes approximately 10 minutes, but may differ to your network connection and computing power.
 ```bash
 sh ./run_jupyter.sh
 ```
-This notebook lets you:
-- Download a portion (t=1~50, size=**TODO**) of calcium imaging data acquired with our wide-field microscope.
+**This notebook lets you:**
+- Download a portion (t=1~50, size=1.5GB) of calcium imaging data acquired with our wide-field microscope. Note that the number of timeframes of whole data we used was 1260 with 4.2VPS.
 - Do unsupervised low rank and sparse decomposition using BEAR.
 - Load the pretrained 3-D deconvolution network.
 - Do deconvolution for each 50 sparse volumes.
 - Visualize the results.
+
+**Followings are visualization results in the notebook.**
+
+<p align="center">
+<img width="100%" src="src/demo_bear.gif">
+</p>
+<h6 align="center">Unsupervised low rank and sparse decomposition using BEAR.
+
+ Maximum intensity projection of videos.
+ </h6>
+
+<p align="center">
+<img width="100%" src="src/demo_deconv.gif">
+</p>
+<h6 align="center">3-D Deconvolution using pretrained network.
+
+ Maximum intensity projection of videos.
+ Finally, from raw video acquired using our wide-field microscope, we acquired sparse, deconvolved video!
+ </h6>
 
 ## Train
 The following command starts training the 3-D deconvolution network:
