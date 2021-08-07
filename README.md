@@ -24,7 +24,7 @@ skimage==0.16.2
 ```
 
 ## Demo: BEAR + Deconvolution with pretrained weight
-**For more detail about BEAR which does unsupervised low-rank and sparse decomposition, please refer to our previous paper. [PAPER][[Code and dataset]](https://github.com/NICALab/BEAR)**
+**For more detail about BEAR which does unsupervised low-rank and sparse decomposition, please refer to our previous paper. [[PAPER]](https://arxiv.org/abs/2108.01665)[[Code and dataset]](https://github.com/NICALab/BEAR)**
 
 There are videos saved in this notebook, where they are not visible if you simply view the notebook in github.
 One way to view all things in the notebook with opening it with VS Code.
