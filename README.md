@@ -76,9 +76,17 @@ python codes/eval_3DM_video.py --exp_name 3DM --epoch 26000
 
 
 ## Citation
-**TODO**
 ```markdown
-@article{cho2021deep,
-  title={3DM: Deep decomposition and deconvolution microscopy},
-}
+@article{cho20213dm,
+author = {Eun-Seo Cho and Seungjae Han and Kang-Han Lee and Cheol-Hee Kim and Young-Gyu Yoon},
+journal = {Opt. Express},
+number = {20},
+pages = {32700--32711},
+publisher = {OSA},
+title = {3DM: deep decomposition and deconvolution microscopy for rapid neural activity imaging},
+volume = {29},
+month = {Sep},
+year = {2021},
+url = {http://www.osapublishing.org/oe/abstract.cfm?URI=oe-29-20-32700},
+doi = {10.1364/OE.439619},
 ```
