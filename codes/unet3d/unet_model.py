@@ -6,7 +6,6 @@ sys.path.append(".")
 from codes.unet3d.unet_parts import *
 
 
-
 class UNet(nn.Module):
     def __init__(self, n_channels, n_classes, 
                  depth, channel,
@@ -40,7 +39,7 @@ class UNet(nn.Module):
                                           z_true=bool(z_true_idx)))
                 z_true_idx = 1 - z_true_idx
         self.incblock.append(Down(channels[-2], channels[-1],
-                                  kernel_size=3, bias=True,
+                                  kernel_size=3, bias=bias,
                                   normalization=normalization,
                                   activation=activation,
                                   z_true=bool(z_true_idx)))
