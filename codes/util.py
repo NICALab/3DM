@@ -44,11 +44,11 @@ def preprocess(images, patchsize, noise=False, noise_range=[100, 3000]):
         return [img / norm_fac for img in images]
     
     def flip(images):
-        if rand_flag:
+        if rand_flag():
             images = [torch.flip(img, [2]) for img in images]
-        if rand_flag:
+        if rand_flag():
             images = [torch.flip(img, [3]) for img in images]
-        if rand_flag:
+        if rand_flag():
             images = [torch.rot90(img, 1, (2, 3)) for img in images]
         return images
 
