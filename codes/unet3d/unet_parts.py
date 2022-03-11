@@ -77,9 +77,9 @@ class Up(nn.Module):
                  normalization, activation, z_true=True):
         super().__init__()
         if z_true:
-            self.up = nn.ConvTranspose3d(in_channels , in_channels // 2, bias=bias, kernel_size=2, stride=2)
+            self.up = nn.ConvTranspose3d(in_channels , in_channels // 2, kernel_size=2, stride=2)
         else:
-            self.up = nn.ConvTranspose3d(in_channels , in_channels // 2, bias=bias, kernel_size=(1, 2, 2), stride=(1, 2, 2))
+            self.up = nn.ConvTranspose3d(in_channels , in_channels // 2, kernel_size=(1, 2, 2), stride=(1, 2, 2))
         self.conv = Conv(in_channels, out_channels, bias=bias, kernel_size=kernel_size,
                          normalization=normalization, activation=activation)
 
@@ -97,7 +97,7 @@ class OutConv(nn.Module):
         super(OutConv, self).__init__()
         self.conv = Conv(in_channels, in_channels // 2, bias=bias, kernel_size=kernel_size,
                          normalization=normalization, activation=activation)
-        self.outconv = nn.Conv3d(in_channels // 2, out_channels, bias=bias, kernel_size=3, padding=1)
+        self.outconv = nn.Conv3d(in_channels // 2, out_channels, kernel_size=3, padding=1)
 
     def forward(self, x):
         x = self.conv(x)

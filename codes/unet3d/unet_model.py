@@ -33,7 +33,7 @@ class UNet(nn.Module):
         if depth > 1:
             for i in range(depth - 1):
                 self.incblock.append(Down(channels[i], channels[i+1],
-                                          kernel_size=3, bias=bias,
+                                          kernel_size=3, bias=True,
                                           normalization=normalization,
                                           activation=activation,
                                           z_true=bool(z_true_idx)))
