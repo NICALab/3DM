@@ -5,7 +5,7 @@
 </p>
 <h6 align="center">Demo video acquired using 3DM.
 
- Compression is applied, portion of video is shown due to the file size. [Supplementary video 1](TODO) is the video before compression.
+ Compression is applied, portion of video is shown due to the file size. [Supplementary video 2](https://opticapublishing.figshare.com/articles/media/Visualization2_mp4/15112149) is the video before compression.
  </h6>
 
 
